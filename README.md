@@ -13,7 +13,7 @@ Before setting up and using this project, ensure that you have the following ins
 
 1. Clone the repository to your local machine:
 ```bash
-git clone https://github.com/your-username/express-mongodb-rest-api.git
+git clone https://github.com/tristantanjh/Wiki-API.git
 ```
 2. Navigate to the project directory:
 ```bash
@@ -29,13 +29,17 @@ npm install
 ```bash
 mongod
 ```
-2. Start the Express server - Runs on http://localhost:3000:
+
+2. Create a new MongoDB database called 'WikiDB'. You can use a MongoDB GUI tool like [MongoDB Compass](https://downloads.mongodb.com/compass/mongodb-compass-1.37.0-win32-x64.exe) or [Studio 3T](https://studio3t.com/) to create the database.
+  
+3. Start the Express server - Runs on http://localhost:3000:
 ```bash
 npm start
 ```
 
 
-3. Use an API testing tool (e.g., Postman, cURL) to interact with the API using the available routes:
+4. Use an API testing tool (e.g., Postman, cURL) to interact with the API using the available routes:
+
 - Retrieve all articles:
 ```bash
 GET http://localhost:3000/articles
