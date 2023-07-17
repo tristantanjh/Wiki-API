@@ -23,6 +23,10 @@ cd Wiki-API
 ```bash
 npm install
 ```
+4. Install Nodemon (if not already installed):
+```bash
+npm install -g nodemon
+```
 
 ## Usage
 1. Start the MongoDB server:
@@ -34,7 +38,7 @@ mongod
   
 3. Start the Express server - Runs on http://localhost:3000:
 ```bash
-npm start
+nodemon
 ```
 
 
